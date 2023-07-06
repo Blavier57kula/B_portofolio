@@ -28,17 +28,16 @@ const Contact = () => {
                        {
                          contact_info.map((contact,i)=>(
                             <div key={i} className="flex gap-4 w-fit items-center">
-                            <div className="min-w-[3.5rem] text-3xl min-h-[3.5rem] flex items-center justify-center text-white
-                            bg-cyan-600 rounded-full">
-                            <span>{contact.logo}</span>
-                            </div>
-                            <p className='text-base'>{contact.text}</p>
-                        </div> 
+                                <div className="min-w-[3.5rem] text-3xl min-h-[3.5rem] flex items-center justify-center text-white
+                                bg-cyan-600 rounded-full">
+                                     <span>{contact.logo}</span>
+                                </div>
+                                <p className='text-base'>{contact.text}</p>
+                             </div> 
                          ))
 
                        }
-                        
-                        
+                         
                     </div>
                     
                 </div>

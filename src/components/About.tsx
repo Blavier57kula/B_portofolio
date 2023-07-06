@@ -19,7 +19,7 @@ const About = () => {
                             <div className="text-gray-300 my-3">
                                 <p className="text-justify leading-7 w-11/12 mx-auto">
                                     Je suis  Blavier kula, un web developeur passionné qui vous apporte la programmation et le design
-                                    du futur. Mon expertise est le développement des sites Web et d'application Web de niveau supérieur, y compris
+                                    du futur. Mon expertise est le développement des sites Web et d application Web de niveau supérieur, y compris
                                     la conception frontale complete. 
                                 </p>
 
