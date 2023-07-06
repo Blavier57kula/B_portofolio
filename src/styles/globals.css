@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.AboutImg ::after {
+     @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10 ;
+} 
+
+input,textarea {
+     @apply bg-gray-700 outline-none rounded-lg p-3;
+}
+
+::placeholder {
+     @apply text-lg;
+}
+
+::selection {
+     @apply bg-cyan-600;
+}
+
+     .cardIcon{
+          @apply  w-10 h-10 bg-cyan-600 bg-opacity-25 text-2xl hover:text-white  flex items-center 
+          justify-center rounded-md shadow cursor-pointer
+          hover:bg-opacity-40 hover:-translate-y-1  transition-all duration-300;
+     }
