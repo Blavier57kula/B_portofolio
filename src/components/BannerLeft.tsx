@@ -2,16 +2,19 @@ import React from 'react'
 import { BsInstagram,BsFacebook,BsLinkedin,BsGithub }from 'react-icons/bs';
 import { FaReact, FaWordpress } from 'react-icons/fa';
 import { TbBrandTailwind,TbBrandJavascript, TbBrandNextjs } from 'react-icons/tb';
-import  {  useTypewriter, Cursor  }  from  'react-simple-typewriter';
+import  {  useTypewriter, Cursor }  from  'react-simple-typewriter';
 
+interface Props{
+  cursorBlinking: boolean;
+}
 
 const BannerLeft = () => {
 
     const  [ text ]  =  useTypewriter ( { 
         words : ['Développeur front-end.' , 'UI/UX Design.' ] , 
-        loop : true , 
-        typeSpeed:20,
-        deleteSpeed:10,
+        loop : true, 
+        typeSpeed: 20,
+        deleteSpeed: 10,
         delaySpeed: 2000,
       } );
 
@@ -26,7 +29,7 @@ const BannerLeft = () => {
                 <h2 className='text-4xl font-bold text-white'>
                     <span>{text}</span>
                     <Cursor
-                        cursorBlinking="false"
+                        
                         cursorStyle="|"
                         cursorColor="#0891B2"
                     />
