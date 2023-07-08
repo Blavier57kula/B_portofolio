@@ -55,7 +55,7 @@ const Skills = () => {
                     compétences</span>
                 </h3>
                 <p className="text-gray-400 mt-3 text-lg max-w-4xl mx-auto">Découvrez mes compétences, elles sont en constantes ameliorations
-                car pour moi la joie de ce métier fait que l'on apprend tous les jours,d'autant plus en étant impliqué,curieux et passionné.</p>
+                car pour moi la joie de ce métier fait que l on apprend tous les jours,d autant plus en étant impliqué,curieux et passionné.</p>
                 <div className="flex max-w-6xl mx-auto items-center justify-center mt-12 gap-8 flex-wrap">
                    
                         {
