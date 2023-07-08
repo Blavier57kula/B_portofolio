@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className=" sticky  w-full left-0 top-0 z-10 bg-[#0f1630]">
             <div className=" w-full shadow-md h-19 py-2 flex justify-between items-center">
                 <div className="mx-7">
-                    <h3 className="text-4xl text-cyan-600 cursor-pointer uppercase font-bold">Bk</h3>
+                    <h3 className="text-4xl text-cyan-600 cursor-pointer uppercase font-bold">Blvk</h3>
                 </div>
 
                 <div className="mr-7">
