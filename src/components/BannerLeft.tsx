@@ -32,7 +32,7 @@ const BannerLeft = () => {
                     />
                 </h2>
                 <p className='text-base leading-6 tracking-wide'>
-                   J'aime coder des choses à partir de zéro et donner vie a des idées dans le navigateur,
+                   J aime coder des choses à partir de zéro et donner vie a des idées dans le navigateur,
                     je conçois des choses magnifiquement simples, et j adore ça. 
                 </p>
             </div>
