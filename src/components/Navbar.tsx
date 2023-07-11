@@ -40,10 +40,10 @@ const Navbar = () => {
                                 <li >Apropos</li>
                             </Link> 
                             <Link href="#competence" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
-                                <li >compétence</li>
+                                <li >compétences</li>
                             </Link>  
                             <Link href="#projet" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
-                                <li >projet</li>
+                                <li >projets</li>
                             </Link> 
                             <Link href="#contact" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
                                 <li >contact</li>
