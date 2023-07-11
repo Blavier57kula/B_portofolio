@@ -34,13 +34,13 @@ const Navbar = () => {
                         group-focus:right-0 group-focus:opacity-100 transition-all duration-300'>
                             <ul className='flex flex-col items-center w-full text-base cursor-pointer pt-10'>
                             <Link href="#home" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
-                                <li >Home</li>
+                                <li >Accueil</li>
                             </Link>
                             <Link href="#about" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
-                                <li >About</li>
+                                <li >Apropos</li>
                             </Link> 
                             <Link href="#competence" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
-                                <li >competence</li>
+                                <li >compétence</li>
                             </Link>  
                             <Link href="#projet" className='w-full py-2 px-6 hover:bg-gray-300 capitalize text-lg font-semibold hover:text-cyan-800 transition'>
                                 <li >projet</li>

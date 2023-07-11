@@ -13,17 +13,17 @@ const About = () => {
         <section id="about" className="py-10 text-white">
                 <div className="text-center mt-8">
                     <h3 className="text-4xl font-semibold">Apropos</h3>
-                    <p className="text-gray-400 mt-3 text-lg">Mon introduction</p>
+                    <p className="text-gray-400 mt-3 py-3 text-lg">Mon introduction</p>
                     <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                         <div className="p-2">
                             <div className="text-gray-300 my-3">
-                                <p className="text-justify leading-7 w-11/12 mx-auto">
+                                <p className="text-justify text-base leading-7 w-11/12 mx-auto">{`
                                     Je suis  Blavier kula, un web developeur passionné qui vous apporte la programmation et le design
-                                    du futur. Mon expertise est le développement des sites Web et d application Web de niveau supérieur, y compris
-                                    la conception frontale complete. 
+                                    du futur. Mon expertise est le développement des sites Web et d\'application Web de niveau supérieur, y compris
+                                    la conception frontale complete.`}
                                 </p>
 
-                                <div className="md:mt-0 flex items-center mt-6 gap-7" >
+                                <div className="md:mt-3 flex items-center mt-6 gap-7" >
                                 {
                                     info.map((content)=>(
                                     <div key={content.text} >
@@ -44,8 +44,8 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex  items-center justify-center">
-                            <div className="lg:w-96 h-full   sm:w-10/12 w-11/12 max-w-sm AboutImg">
+                        <div className="flex items-center justify-center">
+                            <div className="lg:w-96 md:w-96 h-full sm:w-10/12 w-11/12 max-w-sm AboutImg">
                                 <Image src={Imgprofile} alt="imgAbaout" className="h-full object-cover bg-cyan-600 rounded-xl" />
                                 
                             </div>
