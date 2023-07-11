@@ -23,7 +23,7 @@ const Project = () => {
             <h3 className="text-4xl font-semibold">
                Mes <span className="text-cyan-600"> Projets</span>
             </h3>
-            <p className="text-gray-400 mt-3 text-lg max-w-4xl mx-auto "> Venez découvrir mes projets, ci-dessous,vous verez quelques exemples
+            <p className="text-gray-400 mt-3 text-lg px-10 max-w-4xl mx-auto "> Venez découvrir mes projets, ci-dessous,vous verez quelques exemples
             des mes realisations effectuées durant ma formations, stage et plus encore.</p>
         </div>
         <br/>

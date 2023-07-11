@@ -6,17 +6,17 @@ const Contact = () => {
     const contact_info=[
         {logo:<GrMail />,text:'Blavierkula420@gmail.com'},
         {logo:<BsFillTelephoneFill />,text:'+243 898550112'},
-        {logo:<BiMap />,text:'Bosenge n°13, Ngiri-ngiri/kinshasa'},
+        {logo:<BiMap />,text:'Bosenge N°13, Ngiri-Ngiri/Kinshasa'},
 
     ]
     return ( 
         <section id="contact" className="py-10 px-3 text-white">
             <div className="text-center mt-8">
                 <h3 className="text-4xl font-semibold">Contact</h3>
-                <p className="text-gray-400 mt-3 text-lg max-w-4xl mx-auto">Vous avez un problème à résoudre ? intéressé à collaborer
-                avec moi?  faites-moi part des vos idées pour développer lapplication de vos rêves.</p>
+                <p className="text-gray-400 mt-3 text-lg  max-w-4xl mx-auto">{`Vous avez un problème à résoudre ? intéressé à collaborer
+                avec moi?  faites-moi part des vos idées pour développer l\'application de vos rêves.`}</p>
             
-                <div className="mt-10 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2
+                <div className="mt-10  flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2
                 rounded-lg mx-auto">
                     <form action="" className="flex flex-col flex-1 gap-3">
                             <input type="text" placeholder="Nom" />

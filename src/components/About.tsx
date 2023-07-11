@@ -4,7 +4,7 @@ import Imgprofile from '../../public/assets/blvk.png';
 const About = () => {
 
         const info=[
-            {text:"Années d'expérience",count:3},
+            {text:"Années d'expériences",count:3},
             {text:"Projets complètes",count:5},
             {text:"Compagnies travaillé",count:2},
         ]
@@ -37,7 +37,7 @@ const About = () => {
                                 }
                                 
                                 </div>
-                                <a href="../../public/assets/CURRICULUM BLAVIER.pdf" download>
+                                <a href="../../public/assets/Cv_bk.pdf" download>
                                     <button className="mt-7  py-2 px-6 font-semibold text-white md:mx-0 mx-auto rounded-full block bg-cyan-600"> 
                                     Telecharger CV
                                     </button>
@@ -45,7 +45,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex items-center justify-center">
-                            <div className="lg:w-96 md:w-96 h-full sm:w-10/12 w-11/12 max-w-sm AboutImg">
+                            <div className="lg:w-96 md:w-80 h-full sm:w-10/12 w-11/12 max-w-sm AboutImg">
                                 <Image src={Imgprofile} alt="imgAbaout" className="h-full object-cover bg-cyan-600 rounded-xl" />
                                 
                             </div>
