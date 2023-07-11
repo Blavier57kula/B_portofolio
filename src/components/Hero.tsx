@@ -5,7 +5,7 @@ import RightBanner from './RightBanner';
 import BannerLeft from './BannerLeft';
 const Hero = () => {
     return ( 
-        <section id="home"className="pt-20 pb-10 mx-20 w-full flex md:flex-row flex-col">
+        <section id="home"className="pt-20 pb-10 mx-10  md:mx-20  flex md:flex-row flex-col">
            <BannerLeft/>
            <RightBanner/>
         </section>
