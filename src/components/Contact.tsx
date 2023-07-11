@@ -1,11 +1,12 @@
-import { BsInstagram,BsFacebook,BsLinkedin,BsGithub, }from 'react-icons/bs';
-
+import { BsInstagram,BsFacebook,BsLinkedin,BsGithub, BsFillTelephoneFill, }from 'react-icons/bs';
+import { GrMail }from 'react-icons/gr';
+import { BiMap }from 'react-icons/bi';
 const Contact = () => {
 
     const contact_info=[
-        {logo:<BsFacebook />,text:'blavierkula57@gmail.com'},
-        {logo:<BsFacebook />,text:'+243898550112'},
-        {logo:<BsFacebook />,text:'Bosenge n°13/kinshasa'},
+        {logo:<GrMail />,text:'blavierkula57@gmail.com'},
+        {logo:<BsFillTelephoneFill />,text:'+243898550112'},
+        {logo:<BiMap />,text:'Bosenge n°13/kinshasa'},
 
     ]
     return ( 
@@ -28,7 +29,7 @@ const Contact = () => {
                        {
                          contact_info.map((contact,i)=>(
                             <div key={i} className="flex gap-4 w-fit items-center">
-                                <div className="min-w-[3.5rem] text-3xl min-h-[3.5rem] flex items-center justify-center text-white
+                                <div className="min-w-[2.5rem] text-2xl min-h-[2.5rem] flex items-center justify-center text-white
                                 bg-cyan-600 rounded-full">
                                      <span>{contact.logo}</span>
                                 </div>
