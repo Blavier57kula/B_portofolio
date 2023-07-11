@@ -4,7 +4,7 @@ import { BiMap }from 'react-icons/bi';
 const Contact = () => {
 
     const contact_info=[
-        {logo:<GrMail />,text:'blavierkula57@gmail.com'},
+        {logo:<GrMail />,text:'blavierkula420@gmail.com'},
         {logo:<BsFillTelephoneFill />,text:'+243898550112'},
         {logo:<BiMap />,text:'Bosenge n°13/kinshasa'},
 
