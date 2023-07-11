@@ -34,7 +34,7 @@ const BannerLeft = () => {
                         cursorColor="#0891B2"
                     />
                 </h2>
-                <p className='text-base text-justify leading-6 '>{`
+                <p className='text-base text-justify leading-6'>{`
                    J\'aime coder des choses à partir de zéro et donner vie a des idées dans le navigateur,
                     je conçois des choses magnifiquement simples, et j\'adore ça.`}
                 </p>

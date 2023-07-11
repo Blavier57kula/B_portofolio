@@ -4,9 +4,9 @@ import Imgprofile from '../../public/assets/blvk.png';
 const About = () => {
 
         const info=[
-            {text:"Années d'experience",count:3},
-            {text:"Projets completes",count:5},
-            {text:"Compagnies Works",count:2},
+            {text:"Années d'expérience",count:3},
+            {text:"Projets complètes",count:5},
+            {text:"Compagnies travaillé",count:2},
         ]
 
     return ( 
@@ -17,13 +17,13 @@ const About = () => {
                     <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                         <div className="p-2">
                             <div className="text-gray-300 my-3">
-                                <p className="text-justify text-base leading-7 w-11/12 mx-auto">{`
+                                <p className="text-justify text-base leading-6 w-11/12 mx-auto">{`
                                     Je suis  Blavier kula, un web developeur passionné qui vous apporte la programmation et le design
                                     du futur. Mon expertise est le développement des sites Web et d\'application Web de niveau supérieur, y compris
                                     la conception frontale complete.`}
                                 </p>
 
-                                <div className="md:mt-3 flex items-center mt-6 gap-7" >
+                                <div className="md:mt-3 sm:px-5 flex items-center mt-6 gap-7" >
                                 {
                                     info.map((content)=>(
                                     <div key={content.text} >
@@ -31,7 +31,7 @@ const About = () => {
                                             {content.count} 
                                             <span className="text-cyan-600">+</span> {" "}
                                         </h3>
-                                        <span className="md:text-base text-xs">{content.text}</span>
+                                        <span className=" text-base ">{content.text}</span>
                                     </div> 
                                     ))
                                 }
